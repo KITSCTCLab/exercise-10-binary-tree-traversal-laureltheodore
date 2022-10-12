@@ -41,7 +41,7 @@ def preorder(root) -> None:
     preorder(root.left_child)
     preorder(root.right_child)
 
-
+ 
 def postorder(root) -> None:
     if root is None:
         return 
