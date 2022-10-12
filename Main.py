@@ -47,7 +47,7 @@ def postorder(root) -> None:
         return 
     postorder(root.left_child)
     postorder(root.right_child)
-    print
+    print(root.data, 
 
 
 # Do not change the following code
