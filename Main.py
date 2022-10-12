@@ -44,7 +44,7 @@ def preorder(root) -> None:
 
 def postorder(root) -> None:
     if root is None:
-        return
+        return 
     
 
 
